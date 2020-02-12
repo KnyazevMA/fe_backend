@@ -14,4 +14,12 @@ app.patch( '/user/:id', UserController.updateUser);
 
 app.delete( '/user/:id', UserController.deleteUser);
 
+app.post( '/task', UserController.createUser );
+
+app.get( '/task/:id', UserController.getUser);
+
+app.patch( '/task/:id', UserController.updateUser);
+
+app.delete( '/task/:id', UserController.deleteUser);
+
 app.listen( PORT, () => console.log( `Example app listening on port ${PORT}!` ) );

@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "arthur",
-    "password": "admin",
-    "database": "fe_db",
+    "username": "skeeelz",
+    "password": "232323",
+    "database": "db_fe",
     "host": "127.0.0.1",
     "dialect": "postgres",
     "migrationStorage": "json",
